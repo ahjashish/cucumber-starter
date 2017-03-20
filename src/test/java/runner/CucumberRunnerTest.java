@@ -15,5 +15,5 @@ import org.junit.runner.RunWith;
         glue = "stepdefs"
 //        ,tags = {"@Single"}
 )
-public class CucumberRunner {
+public class CucumberRunnerTest {
 }
