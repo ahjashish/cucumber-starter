@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         format = {"pretty", "html:target/cucumber.html"},
         //format = {"pretty","json:target/cucumber.json"},
         features = {"src/test/java/features"},
-        glue = "StepDefs"
+        glue = "stepdefs"
+//        ,tags = {"@Single"}
 )
 public class CucumberRunner {
 }
